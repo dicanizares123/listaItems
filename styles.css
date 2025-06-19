@@ -1,0 +1,54 @@
+
+html *{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+} 
+
+.wrap-title{
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#inputItem {
+  padding: 8px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+#btnAgregar {
+  padding: 8px;
+  background-color: #4c89af;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/* Estilo para cada item de la lista */
+#listaItems div {
+  margin-top: 10px;
+  background-color: white;
+  padding: 8px;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ; 
+  gap: 30px;
+}
+
+button {
+  padding: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #eee;
+}
+
+
+
+span {
+  flex-grow: 1;
+}
